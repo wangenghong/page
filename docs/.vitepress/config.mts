@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "记事本",
   description: "技术文章 / 生活记录",
-  base: '/',
+  base: '/page/',
   lang: 'zh-CN',
 
   themeConfig: {
