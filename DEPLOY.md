@@ -1,133 +1,78 @@
-# éƒ¨ç½²æŒ‡å—
+# GitHub Pages ²¿ÊğÖ¸ÄÏ
 
-æœ¬æŒ‡å—å°†å¸®åŠ©æ‚¨å°†åšå®¢éƒ¨ç½²åˆ° GitHub Pagesã€‚
+## ×Ô¶¯²¿ÊğÒÑÅäÖÃÍê³É âœ“\
 
-## ğŸ“‹ å‰ç½®å‡†å¤‡
+¸¡¸¡½´ÒÑ¾­ÎªÖ÷ÈËÅäÖÃºÃÁË GitHub Actions ×Ô¶¯²¿Êğ£¡o(*£ş¦á£ş*)o
 
-1. **GitHub è´¦å·**ï¼šç¡®ä¿å·²ç™»å½• GitHub
-2. **Git å·²å®‰è£…**ï¼šåœ¨æœ¬åœ°å®‰è£… Git
-3. **é¡¹ç›®æ–‡ä»¶**ï¼šç¡®ä¿æ‰€æœ‰æ–‡ä»¶å·²å‡†å¤‡å¥½
+## ²¿Êğ²½Öè
 
-## ğŸš€ éƒ¨ç½²æ­¥éª¤
+### 1. ÆôÓÃ GitHub Pages
 
-### ç¬¬ä¸€æ­¥ï¼šåˆ›å»º GitHub ä»“åº“
+Çë°´ÕÕÒÔÏÂ²½Öè²Ù×÷£º
 
-1. è®¿é—® [GitHub](https://github.com)
-2. ç‚¹å‡»å³ä¸Šè§’çš„ `+` â†’ `New repository`
-3. **ä»“åº“åç§°å¿…é¡»æ˜¯**ï¼š`wangenghong.github.io`ï¼ˆä¸¥æ ¼æŒ‰æ­¤æ ¼å¼ï¼‰
-4. è®¾ç½®ä¸º `Public`ï¼ˆå…¬å¼€ï¼‰
-5. **ä¸è¦**å‹¾é€‰ "Add a README file"
-6. ç‚¹å‡» `Create repository`
-
-### ç¬¬äºŒæ­¥ï¼šåˆå§‹åŒ–å¹¶æ¨é€ä»£ç 
-
-åœ¨å½“å‰é¡¹ç›®ç›®å½•ä¸‹æ‰§è¡Œä»¥ä¸‹å‘½ä»¤ï¼š
+1. ´ò¿ª²Ö¿âÒ³Ãæ£ºhttps://github.com/wangenghong/page
+2. µã»÷ **Settings**£¨ÉèÖÃ£©±êÇ©
+3. ÔÚ×ó²à²Ëµ¥ÕÒµ½ **Pages**
+4. ÔÚ **Source** ²¿·ÖÑ¡Ôñ£º
+   - Source: **GitHub Actions**
+   
+### 2. ÍÆËÍ´úÂë´¥·¢²¿Êğ
 
 ```bash
-# åˆå§‹åŒ– Git ä»“åº“
-git init
-
-# æ·»åŠ æ‰€æœ‰æ–‡ä»¶
-git add .
-
-# åˆ›å»ºé¦–æ¬¡æäº¤
-git commit -m "Initial commit: VitePress blog setup"
-
-# è®¾ç½®ä¸»åˆ†æ”¯åä¸º main
-git branch -M main
-
-# æ·»åŠ è¿œç¨‹ä»“åº“
-git remote add origin https://github.com/wangenghong/wangenghong.github.io.git
-
-# æ¨é€åˆ° GitHub
-git push -u origin main
-```
-
-### ç¬¬ä¸‰æ­¥ï¼šé…ç½® GitHub Pages
-
-1. è¿›å…¥ä»“åº“é¡µé¢ï¼š`https://github.com/wangenghong/wangenghong.github.io`
-2. ç‚¹å‡» `Settings`ï¼ˆè®¾ç½®ï¼‰
-3. å·¦ä¾§èœå•é€‰æ‹© `Pages`
-4. åœ¨ `Build and deployment` éƒ¨åˆ†ï¼š
-   - **Source** é€‰æ‹©ï¼š`GitHub Actions`
-5. ä¿å­˜è®¾ç½®
-
-### ç¬¬å››æ­¥ï¼šç­‰å¾…è‡ªåŠ¨éƒ¨ç½²
-
-1. å›åˆ°ä»“åº“é¦–é¡µï¼Œç‚¹å‡» `Actions` æ ‡ç­¾
-2. æŸ¥çœ‹å·¥ä½œæµè¿è¡ŒçŠ¶æ€ï¼ˆä¼šè‡ªåŠ¨è§¦å‘ï¼‰
-3. ç­‰å¾…ç»¿è‰²çš„ âœ“ æ ‡è®°ï¼ˆå¤§çº¦ 2-5 åˆ†é’Ÿï¼‰
-
-### ç¬¬äº”æ­¥ï¼šè®¿é—®ç½‘ç«™
-
-éƒ¨ç½²å®Œæˆåï¼Œè®¿é—®ï¼š**https://wangenghong.github.io**
-
-ğŸ‰ æ­å–œï¼æ‚¨çš„åšå®¢å·²æˆåŠŸä¸Šçº¿ï¼
-
-## ğŸ“ åç»­æ›´æ–°
-
-æ¯æ¬¡ä¿®æ”¹å†…å®¹åï¼Œåªéœ€æ‰§è¡Œï¼š
-
-```bash
-git add .
-git commit -m "æè¿°ä½ çš„ä¿®æ”¹"
+# Ìá½»²¿ÊğÅäÖÃ
+git add .github/workflows/deploy.yml DEPLOY.md
+git commit -m "Ìí¼Ó GitHub Pages ×Ô¶¯²¿ÊğÅäÖÃ"
 git push
 ```
 
-GitHub Actions ä¼šè‡ªåŠ¨é‡æ–°æ„å»ºå’Œéƒ¨ç½²ã€‚
+### 3. ²é¿´²¿Êğ×´Ì¬
 
-## âš ï¸ å¸¸è§é—®é¢˜
+- ·ÃÎÊ²Ö¿âµÄ **Actions** ±êÇ©²é¿´²¿Êğ½ø¶È
+- ²¿ÊğÍê³Éºó£¬ÍøÕ¾»á×Ô¶¯·¢²¼µ½£º
+  - https://wangenghong.github.io/page/
 
-### 1. æ¨é€ä»£ç æ—¶è¦æ±‚è¾“å…¥å¯†ç 
+## ¹¤×÷Á÷ËµÃ÷
 
-GitHub å·²ä¸å†æ”¯æŒå¯†ç è®¤è¯ï¼Œéœ€è¦ä½¿ç”¨ Personal Access Tokenï¼š
+**´¥·¢Ìõ¼ş£º**
+- ÍÆËÍ´úÂëµ½ `main` ·ÖÖ§Ê±×Ô¶¯²¿Êğ
+- Ò²¿ÉÒÔÔÚ Actions Ò³ÃæÊÖ¶¯´¥·¢
 
-1. è®¿é—® [GitHub Settings â†’ Developer settings â†’ Personal access tokens](https://github.com/settings/tokens)
-2. ç‚¹å‡» `Generate new token (classic)`
-3. å‹¾é€‰ `repo` æƒé™
-4. ç”Ÿæˆåå¤åˆ¶ Token
-5. æ¨é€æ—¶ä½¿ç”¨ Token ä½œä¸ºå¯†ç 
+**²¿ÊğÁ÷³Ì£º**
+1. ¼ì³ö´úÂë
+2. °²×° Node.js 20
+3. °²×°ÒÀÀµ
+4. ¹¹½¨ VitePress Õ¾µã
+5. ÉÏ´«¹¹½¨²úÎï
+6. ²¿Êğµ½ GitHub Pages
 
-**æˆ–è€…ä½¿ç”¨ SSHï¼š**
+**¹¹½¨Êä³ö£º**
+- Ô´ÂëÄ¿Â¼£º`docs/`
+- ¹¹½¨Ä¿Â¼£º`docs/.vitepress/dist`
 
-```bash
-git remote set-url origin git@github.com:wangenghong/wangenghong.github.io.git
+## ×¢ÒâÊÂÏî
+
+âš \ï¸\ **Èç¹ûÓöµ½ 404 ´íÎó£º**
+
+¼ì²é VitePress ÅäÖÃÖĞµÄ `base` Â·¾¶£º
+
+```typescript
+// docs/.vitepress/config.mts
+export default defineConfig({
+  base: '/page/',  // ²Ö¿âÃû
+  // ...
+})
 ```
 
-### 2. Actions å·¥ä½œæµå¤±è´¥
+## ×Ô¶¨ÒåÓòÃû£¨¿ÉÑ¡£©
 
-- æ£€æŸ¥ `Actions` æ ‡ç­¾ä¸­çš„é”™è¯¯æ—¥å¿—
-- ç¡®ä¿ `package.json` ä¸­çš„ä¾èµ–æ­£ç¡®
-- ç¡®è®¤ Pages è®¾ç½®ä¸­ Source ä¸º `GitHub Actions`
+Èç¹ûÖ÷ÈËÓĞ×Ô¼ºµÄÓòÃû£¬¿ÉÒÔ£º
 
-### 3. ç½‘ç«™æ˜¾ç¤º 404
-
-- ç­‰å¾… 5-10 åˆ†é’Ÿï¼ˆé¦–æ¬¡éƒ¨ç½²éœ€è¦æ—¶é—´ï¼‰
-- æ£€æŸ¥ Actions æ˜¯å¦æˆåŠŸè¿è¡Œ
-- ç¡®è®¤ä»“åº“åä¸º `ç”¨æˆ·å.github.io`
-
-### 4. æ ·å¼æˆ–åŠŸèƒ½å¼‚å¸¸
-
-- æ¸…é™¤æµè§ˆå™¨ç¼“å­˜ï¼ˆCtrl+Shift+R æˆ– Cmd+Shift+Rï¼‰
-- æ£€æŸ¥æµè§ˆå™¨æ§åˆ¶å°é”™è¯¯ä¿¡æ¯
-
-## ğŸ”§ é…ç½®è¯„è®ºç³»ç»Ÿï¼ˆå¯é€‰ï¼‰
-
-1. è®¿é—® [giscus.app/zh-CN](https://giscus.app/zh-CN)
-2. è¾“å…¥ä»“åº“ï¼š`wangenghong/wangenghong.github.io`
-3. å¯ç”¨ GitHub Discussionsï¼ˆä»“åº“ Settings â†’ General â†’ Featuresï¼‰
-4. æŒ‰ç…§ giscus é¡µé¢æŒ‡å¼•è·å–é…ç½®ä»£ç 
-5. å¤åˆ¶ `data-repo-id` å’Œ `data-category-id`
-6. ç¼–è¾‘ `docs/.vitepress/theme/components/GiscusComments.vue`
-7. æ›¿æ¢å ä½ç¬¦ä¸ºå®é™…å€¼
-8. æ¨é€æ›´æ–°
-
-## ğŸ“ éœ€è¦å¸®åŠ©ï¼Ÿ
-
-- [VitePress å®˜æ–¹æ–‡æ¡£](https://vitepress.dev/)
-- [GitHub Pages æ–‡æ¡£](https://docs.github.com/pages)
-- [Giscus é…ç½®æŒ‡å—](https://giscus.app/zh-CN)
+1. ÔÚ²Ö¿â¸ùÄ¿Â¼´´½¨ `docs/public/CNAME` ÎÄ¼ş
+2. Ğ´Èë×Ô¶¨ÒåÓòÃû£¨ÀıÈç£ºblog.example.com£©
+3. ÔÚÓòÃû·şÎñÉÌÅäÖÃ CNAME ¼ÇÂ¼Ö¸Ïò£ºwangenghong.github.io
 
 ---
 
-ç¥æ‚¨ä½¿ç”¨æ„‰å¿«ï¼âœ¨
+**²¿ÊğÅäÖÃÎÄ¼ş£º** `.github/workflows/deploy.yml`
+
+×£Ö÷ÈËµÄ²©¿Í²¿ÊğË³Àûß÷¡« ¡Ô¦Ø¡Ô
