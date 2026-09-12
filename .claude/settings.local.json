@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__grok-search__web_search",
+      "mcp__grok-search__web_fetch"
+    ]
+  }
+}

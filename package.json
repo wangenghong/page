@@ -1,0 +1,18 @@
+{
+  "name": "wangenghong-blog",
+  "version": "1.0.0",
+  "description": "记事本 - 个人技术博客",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": ["blog", "vitepress", "tech"],
+  "author": "wangenghong",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.3.4",
+    "vue": "^3.4.38"
+  }
+}
